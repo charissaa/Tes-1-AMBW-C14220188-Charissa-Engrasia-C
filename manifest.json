@@ -2,7 +2,7 @@
   "name": "Resep Enak Mama Mia",
   "short_name": "ResepMama",
   "description": "Aplikasi PWA sederhana untuk menampilkan resep masakan.",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#fff8f0",
   "theme_color": "#e74c3c",

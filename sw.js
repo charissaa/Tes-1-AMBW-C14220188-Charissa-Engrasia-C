@@ -1,12 +1,12 @@
 const CACHE_NAME = "resep-cache-v1";
 const urlsToCache = [
-  "/",
-  "/index.html",
-  "/style.css",
-  "/app.js",
-  "/images/resep.jpg",
-  "/icons/icon-192x192.png",
-  "/icons/icon-512x512.png",
+  "./",
+  "./index.html",
+  "./style.css",
+  "./app.js",
+  "./images/resep.jpg",
+  "./icons/icon-192x192.png",
+  "./icons/icon-512x512.png",
 ];
 
 // Event 'install' untuk membuat cache.

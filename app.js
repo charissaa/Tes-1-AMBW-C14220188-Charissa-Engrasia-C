@@ -2,7 +2,7 @@
 if ('serviceWorker' in navigator) {
   // Daftarkan Service Worker saat window selesai dimuat
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/sw.js")
+    navigator.serviceWorker.register("./sw.js")
     .then((registration) => {
         console.log(
           "Service Worker berhasil didaftarkan dengan scope:",
