@@ -54,7 +54,13 @@ self.addEventListener("fetch", (event) => {
 
         // 3. Cache tidak ditemukan maka lanjutkan ke jaringan.
         console.log("Mengambil dari jaringan:", event.request.url);
-        return fetch(event.request);
+        return fetch(event.request).then((networkResponse) => {
+          // Simpan hasil fetch ke cache biar bisa dipakai offline nanti
+          return caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, networkResponse.clone());
+            return networkResponse;
+          });
+        });
       })
       .catch((error) => {
         // 4. Jika offline
