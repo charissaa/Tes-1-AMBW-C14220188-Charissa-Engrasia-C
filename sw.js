@@ -1,12 +1,12 @@
 const CACHE_NAME = "resep-cache-v1";
 const urlsToCache = [
-  "./",
-  "./index.html",
-  "./style.css",
-  "./app.js",
-  "./images/resep.jpg",
-  "./icons/icon-192x192.png",
-  "./icons/icon-512x512.png",
+  "/Tes-1-AMBW-C14220188-Charissa-Engrasia-C/",
+  "/Tes-1-AMBW-C14220188-Charissa-Engrasia-C/index.html",
+  "/Tes-1-AMBW-C14220188-Charissa-Engrasia-C/style.css",
+  "/Tes-1-AMBW-C14220188-Charissa-Engrasia-C/app.js",
+  "/Tes-1-AMBW-C14220188-Charissa-Engrasia-C/images/resep.jpg",
+  "/Tes-1-AMBW-C14220188-Charissa-Engrasia-C/icons/icon-192x192.png",
+  "/Tes-1-AMBW-C14220188-Charissa-Engrasia-C/icons/icon-512x512.png",
 ];
 
 // Event 'install' untuk membuat cache.
